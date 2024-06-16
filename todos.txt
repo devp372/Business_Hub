@@ -1,0 +1,7 @@
+TODO Make a modify sellers details page
+Seller ID from localStorage
+Seller Name
+Store Name
+
+
+TODO

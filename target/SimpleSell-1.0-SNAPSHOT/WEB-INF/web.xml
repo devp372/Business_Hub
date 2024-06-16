@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>MyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/MyServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>SignUp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/SignUp</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ModifyAccountDetails</servlet-name>
+        <servlet-class>ModifyAccountDetails</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ModifyAccountDetails</servlet-name>
+        <url-pattern>/ModifyAccountDetails</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Inventory</servlet-name>
+        <servlet-class>Inventory</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Inventory</servlet-name>
+        <url-pattern>/Inventory</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FinancialReports</servlet-name>
+        <servlet-class>FinancialReports</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FinancialReports</servlet-name>
+        <url-pattern>/FinancialReports</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ModifyProducts</servlet-name>
+        <servlet-class>ModifyProducts</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ModifyProducts</servlet-name>
+        <url-pattern>/ModifyProducts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteProduct</servlet-name>
+        <servlet-class>DeleteProduct</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteProduct</servlet-name>
+        <url-pattern>/DeleteProduct</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>FetchOrder</servlet-name>
+        <servlet-class>FetchOrder</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FetchOrder</servlet-name>
+        <url-pattern>/FetchOrder</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InventoryAdd</servlet-name>
+        <servlet-class>InventoryAdd</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InventoryAdd</servlet-name>
+        <url-pattern>/InventoryAdd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AcceptOrder</servlet-name>
+        <servlet-class>AcceptOrder</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AcceptOrder</servlet-name>
+        <url-pattern>/AcceptOrder</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>RejectOrder</servlet-name>
+        <servlet-class>RejectOrder</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RejectOrder</servlet-name>
+        <url-pattern>/RejectOrder</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ModifySecurityQuestions</servlet-name>
+        <servlet-class>ModifySecurityQuestions</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ModifySecurityQuestions</servlet-name>
+        <url-pattern>/ModifySecurityQuestions</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DiscountCode</servlet-name>
+        <servlet-class>DiscountCode</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DiscountCode</servlet-name>
+        <url-pattern>/DiscountCode</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>FetchCarts</servlet-name>
+        <servlet-class>FetchCarts</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FetchCarts</servlet-name>
+        <url-pattern>/FetchCarts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>returningCustomer</servlet-name>
+        <servlet-class>returningCustomer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>returningCustomer</servlet-name>
+        <url-pattern>/returningCustomer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetNumberOrders</servlet-name>
+        <servlet-class>GetNumberOrders</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetNumberOrders</servlet-name>
+        <url-pattern>/GetNumberOrders</url-pattern>
+    </servlet-mapping>
+
+    
+
+
+
+</web-app>
